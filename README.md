@@ -1,5 +1,7 @@
 # NetworkProgrammingAssignment
 
+Assignment link : https://classroom.google.com/c/NDI4MDcwOTkwMzNa/a/NTA4MTI3OTQ1MDRa/details
+
 Provide the executable permissions to the run.sh with the following command
 
 chmod +x run.sh
