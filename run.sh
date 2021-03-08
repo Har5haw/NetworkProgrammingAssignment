@@ -2,16 +2,18 @@
 
 if [[ -x "server.sh" ]]
 then
-	gnome-terminal -- bash -c "./server.sh; exec bash"
+    echo server.sh has permission
 else
+    echo getting permission for server.sh
 	chmod +x server.sh
-	gnome-terminal -- bash -c "./server.sh; exec bash"
 fi
+gnome-terminal -- bash -c "./server.sh; exec bash"
 
 if [[ -x "client.sh"  ]]
 then
-	gnome-terminal -- bash -c "./client.sh; exec bash"
+    echo client.sh has permission
 else
+    echo getting permission for client.sh
 	chmod +x client.sh
-	gnome-terminal -- bash -c "./client.sh; exec bash"
 fi
+gnome-terminal -- bash -c "./client.sh; exec bash"
